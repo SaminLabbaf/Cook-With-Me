@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'FancyFont';
-    src: url(../../public//fonts/Pacifico-Regular.ttf) ;
-  }
+    src: url(../../public//fonts/Pacifico-Regular.ttf);
+}
 
 
 a {
@@ -14,6 +14,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 10px 0 30px;
+    position: absolute;
+    /* Allows positioning on top of the hero image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    /* Ensures it is above the image */
 }
 
 header h1 {

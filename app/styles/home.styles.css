@@ -1,0 +1,39 @@
+.imageContainer {
+    position: relative;
+    /* Required for Next.js Image layout="fill" */
+    width: 100%;
+    /* Full width of the screen */
+    height: 75vh;
+    /* 75% of the viewport height */
+    overflow: hidden;
+    /* Ensures no overflow or scrollbars */
+    margin: 0;
+    /* Removes default margins */
+    padding: 0;
+    /* Removes default padding */
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+}
+
+.heroTitle {
+    color: #0C7371;
+}
+
+.heroDesc {
+    color: #587575;
+    font-weight: bolder;
+}
+
+/* .heroImg {
+    position: absolute;
+    top: 0;
+    z-index: -10;
+    width: 100vw;
+    height: 719px;
+} */
