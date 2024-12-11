@@ -1,0 +1,82 @@
+/* Recipe Card Styles */
+.recipe-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c8f8f7;
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    width: 320px;
+    /* Wider width */
+    height: 220px;
+    /* Adjusted height */
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+/* Card Content Section */
+.card-content {
+    flex: 1;
+}
+
+.card-content h3 {
+    font-size: 1.3rem;
+    margin: 0 0 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.details li {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.details li .icon {
+    font-size: 1rem;
+    margin-right: 8px;
+    color: #f76c6c;
+}
+
+/* Card Action Button */
+.card-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-button {
+    background-color: #00A6A2;
+    color: white;
+    font-size: 1.2rem;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease;
+}
+
+.action-button:hover {
+    background-color: #018f8c;
+}
+
+.foodImageTumblr {
+    position: absolute;
+    right: -50px;
+    width: 100px;
+    height: 100px;
+}

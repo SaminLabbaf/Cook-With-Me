@@ -30,10 +30,20 @@
     font-weight: bolder;
 }
 
-/* .heroImg {
-    position: absolute;
-    top: 0;
-    z-index: -10;
-    width: 100vw;
-    height: 719px;
-} */
+.popularTitle {
+    width: 100%;
+    text-align: center;
+    margin-block: 50px;
+    color: #2f2f2f;
+}
+
+#popular-dishes {
+    margin-bottom: 40px;
+}
+
+.recipesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    column-gap: 30px;
+    row-gap: 35px;
+}

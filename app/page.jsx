@@ -1,6 +1,7 @@
 import Image from "next/image";
 import hero from '../public/images/hero.png'
 import './styles/home.styles.css';
+import RecipeCard from "./components/recipeCard/card";
 
 export default function Page() {
   return (
@@ -16,6 +17,17 @@ export default function Page() {
         <h1 className='heroTitle'>Bring Healthy Cooking and Joy To Your Home With Me ;)</h1>
         <h5 className="heroDesc">Browse through a variety of recipes across different categories</h5>
       </div>
+      <section id='popular-dishes' className="container">
+        <h2 className="popularTitle">Popular Recipes</h2>
+        <div className="recipesGrid">
+          <RecipeCard />
+          <RecipeCard />
+          <RecipeCard />
+          <RecipeCard />
+          <RecipeCard />
+          <RecipeCard />
+        </div>
+      </section>
     </main>
   )
 }
