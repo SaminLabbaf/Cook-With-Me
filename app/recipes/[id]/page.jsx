@@ -1,6 +1,4 @@
-'use client'
 
-import { useParams } from 'next/navigation';
 import './recipe.styles.css';
 import Image from 'next/image';
 import foodImage from '../../../public/images/pancake.jpg'
@@ -59,13 +57,8 @@ const recipeData = {
 };
 
 export default function RecipePage() {
-    const { id } = useParams();  // Use useParams to access the dynamic ID from the URL
 
-    const recipe = recipeData[id];
 
-    if (!recipe) {
-        <NotFound />
-    }
 
     return (
         <main className="recipe-container">
@@ -129,3 +122,4 @@ export default function RecipePage() {
         </main>
     );
 }
+

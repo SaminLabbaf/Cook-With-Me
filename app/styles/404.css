@@ -25,6 +25,7 @@ html {
 }
 
 .error-title {
+    padding-top: 80px;
     font-size: 10rem;
     color: #f08a5d;
     font-weight: bold;
