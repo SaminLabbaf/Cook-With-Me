@@ -1,0 +1,29 @@
+#aboutPage {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#aboutPic {
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #00A6A2;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #00A6A2;
+    margin-bottom: 10px;
+}
