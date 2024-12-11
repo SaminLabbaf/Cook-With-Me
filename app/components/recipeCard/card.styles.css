@@ -1,17 +1,13 @@
-/* Recipe Card Styles */
 .recipe-card {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #c8f8f7;
     border-radius: 5px;
-    /* Rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
     padding: 20px;
     width: 320px;
-    /* Wider width */
     height: 220px;
-    /* Adjusted height */
     font-family: Arial, sans-serif;
     position: relative;
 }
