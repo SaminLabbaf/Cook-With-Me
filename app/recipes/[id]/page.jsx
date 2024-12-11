@@ -123,3 +123,14 @@ export default function RecipePage() {
     );
 }
 
+// Generate static params for the dynamic route
+export async function generateStaticParams() {
+    // Simulate fetching recipe IDs from an API or data source
+    const recipeIds = [1, 2, 3, 4, 5, 6];  // Example recipe IDs
+
+    // Return an array of paths that should be statically generated
+    return recipeIds.map((id) => ({
+        id: id.toString(),  // Convert to string as dynamic params are typically string-based
+    }));
+}
+
