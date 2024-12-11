@@ -5,6 +5,13 @@ import RecipeCard from "./components/recipeCard/card";
 import Link from "next/link";
 
 export default function Page() {
+
+  const recipes = [
+    { id: 1, title: "Delicious Pancakes" },
+    { id: 3, title: "Spaghetti Bolognese" },
+    { id: 4, title: "Grilled Chicken" },
+  ];
+
   return (
     <main>
       <div className='imageContainer'>
@@ -21,9 +28,9 @@ export default function Page() {
       <section id='popular-dishes' className="container">
         <h2 className="popularTitle">Popular Recipes</h2>
         <div className="recipesGrid">
-          <RecipeCard />
-          <RecipeCard />
-          <RecipeCard />
+          {recipes.map((recipe) => (
+            <RecipeCard key={recipe.id} recipe={recipe} />
+          ))}
         </div>
         <div className="button-container">
           <Link href='./recipes'><button className="view-more-button">View More</button></Link>

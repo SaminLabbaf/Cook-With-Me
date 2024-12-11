@@ -1,0 +1,92 @@
+/* recipe.styles.css */
+
+/* General Styling */
+.recipe-container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #333;
+}
+
+.recipe-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.detail-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.detail-box {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.detail-box h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.detail-box span {
+    display: block;
+    font-size: 1.3rem;
+    color: #555;
+}
+
+.recipe-section {
+    margin-bottom: 2rem;
+}
+
+.recipe-section h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.recipe-section ul,
+.recipe-section ol {
+    margin-left: 20px;
+}
+
+.recipe-section li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.cta-button {
+    background-color: #f08a5d;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #d76a3d;
+}
