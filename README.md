@@ -1,3 +1,5 @@
+![Cook With Me](./public/images/landing-page.png)
+
 # Cook With Me
 
 ## Description
