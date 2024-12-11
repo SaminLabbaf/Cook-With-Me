@@ -1,7 +1,7 @@
 # Cook With Me
 
 ## Description
-**Cook With Me** is a recipe website built using **Next.js**. The website allows users to explore various recipes, view detailed ingredients and instructions, and search for recipes based on different criteria. The project aims to provide a clean, modern, and responsive platform that makes cooking easier and more enjoyable for users. It uses Next.js to ensure fast performance, SEO optimization, and easy navigation.
+**Cook With Me** is a recipe website built using **Next.js**. The website allows users to explore various recipes, view detailed ingredients and instructions. The project aims to provide a clean, modern, and responsive platform that makes cooking easier and more enjoyable for users. It uses Next.js to ensure fast performance, SEO optimization, and easy navigation. You can reach the website at [Cook With Me](https://saminlabbaf.github.io/Cook-With-Me/) 
 
 ## Prerequisites
 Before you begin, ensure you have the following software installed:
