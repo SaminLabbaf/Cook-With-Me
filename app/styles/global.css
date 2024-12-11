@@ -14,12 +14,14 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 10px 0 30px;
+    color: white;
     position: absolute;
     /* Allows positioning on top of the hero image */
     top: 0;
     left: 0;
     width: 100%;
     z-index: 10000;
+    background-color: rgba(0, 0, 0, 0.7);
     /* Ensures it is above the image */
 }
 

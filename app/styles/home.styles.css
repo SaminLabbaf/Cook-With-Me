@@ -47,3 +47,42 @@
     column-gap: 30px;
     row-gap: 35px;
 }
+
+/* View More Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    /* Centers the button horizontally */
+    align-items: center;
+    /* Centers the button vertically if needed */
+    margin-top: 50px;
+}
+
+.view-more-button {
+    border: none;
+    border-radius: 5px;
+    background-color: #8a8a8a;
+    /* Light gray background */
+    color: #ffffff;
+    /* White text */
+    padding: 10px 20px;
+    /* Spacing for a comfortable size */
+    font-size: 16px;
+    /* Text size */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.view-more-button:hover {
+    background-color: #6b6a6a;
+    /* Slightly darker gray on hover */
+    transform: scale(1.05);
+    /* Subtle zoom effect */
+}
+
+.view-more-button:active {
+    background-color: #a0a0a0;
+    /* Even darker gray when clicked */
+    transform: scale(0.98);
+    /* Pressed button effect */
+}

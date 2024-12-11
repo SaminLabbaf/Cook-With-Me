@@ -2,6 +2,7 @@ import Image from "next/image";
 import hero from '../public/images/hero.png'
 import './styles/home.styles.css';
 import RecipeCard from "./components/recipeCard/card";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -23,9 +24,9 @@ export default function Page() {
           <RecipeCard />
           <RecipeCard />
           <RecipeCard />
-          <RecipeCard />
-          <RecipeCard />
-          <RecipeCard />
+        </div>
+        <div className="button-container">
+          <Link href='./recipes'><button className="view-more-button">View More</button></Link>
         </div>
       </section>
     </main>
