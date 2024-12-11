@@ -1,6 +1,7 @@
 import Link from "next/link";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/global.css';
+import Footer from "./components/footer/footer";
 
 export default function RootLayout({ children }) {
   return (
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
           </nav>
         </header>
         {children}
+        <Footer />
       </body>
     </html>
   )
