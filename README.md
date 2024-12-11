@@ -1,4 +1,4 @@
-![Cook With Me](SaminLabbaf/public/images/landing-page.png)
+![Cook With Me](./public/landing-page.png)
 
 # Cook With Me
 
